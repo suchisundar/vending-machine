@@ -1,0 +1,52 @@
+.water {
+background-image: url("/Water.jpg"); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+background-color: pink;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.water-card {
+background-color: rgb(142, 183, 226);
+width: 20%;
+text-align: center;
+padding: 30px;
+font-size: 1.5rem;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+border-radius: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 2px 2px 3px rgb(0, 102, 255);
+}
+
+.water-img {
+position: absolute;
+width: 100px;
+height: 100px;
+}
+
+.action-button {
+background-color: #FFEB99;
+border: none;
+color: black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 12px;
+}
+
+.button-link {
+color: inherit; 
+text-decoration: none;
+}
+
